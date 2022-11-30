@@ -1,0 +1,19 @@
+.footer{
+    height:50px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
+
+}
+.country{
+    display: flex;
+    flex-direction: row;
+}
+.country-image{
+    height:20px;
+    width:20px;
+    padding-top: 5px;
+}

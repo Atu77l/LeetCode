@@ -1,0 +1,40 @@
+.nav{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    height:40px;
+    width:100%;
+    padding-left:40px;
+    box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
+
+}
+.logo-image{
+    height:40px;
+    width:60px;
+    padding-right:5px;
+}
+.item{
+    padding:5px;
+}
+.store{
+     display:flex;
+     flex-direction: horizontal;
+}
+.store-image{
+    height:30px;
+    width:30px;
+}
+.prem{
+    display:flex;
+    flex-direction:horizontal;
+    border-color: gold;
+}
+.premium-image{
+    height:20px;
+    width:20px;
+    padding: 5px;
+}
+.item1{
+ padding-top:5px;
+}
+
