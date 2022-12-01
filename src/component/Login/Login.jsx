@@ -5,8 +5,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 const Login = () => {
   return (
+    <div className="Head">
+    <Navbar/>
     <div className="Login">
     
         <div className="logo">
@@ -26,6 +30,8 @@ const Login = () => {
         <div className="statement">
             <p>This site is protected bu reCAPTCHA and the Google <br></br><u>Privacy Policy</u> and <u>Terms of Service</u> apply.</p>
         </div>
+    </div>
+    <Footer/>
     </div>
   )
 }
