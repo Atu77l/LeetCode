@@ -1,5 +1,7 @@
 import React from 'react'
 import { Tooltip,Legend,CartesianGrid, LineChart,XAxis,YAxis} from 'recharts'
+import './chart.css'
+
 
 const Line = () => {
     const pdata = [

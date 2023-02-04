@@ -9,7 +9,7 @@
     margin-top:5%;
     margin-bottom: 10%;
     box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
-    width:85%;
+    width:20%;
     height:100%;
     border-radius:5px;
     padding:20px;
@@ -17,8 +17,12 @@
 .rating-and-graph{
     display:flex;
     flex-direction:horizontal;
-    margin-top:5%;
+    margin:50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
 }
+
 .rating{
     background-color: white;
     margin-left:10%;
@@ -41,20 +45,23 @@
 }
 .Number-of-question-and-badge{
     background-color: white;
-    margin-left:10%;
+    margin:50px;
     box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
-    width:65%;
     height:20%;
     border-radius:5px;
     padding:20px;
 }
+.Number-of-question{
+    display:flex;
+    flex-direction:horizontal;
+    margin:50px;
+    background-color: white;
+    box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
+}
 .problem-solved{
     background-color: white;
-    margin-left:10%;
-    margin-top:2%;
-    margin-bottom: 10%;
+    margin:50px;
     box-shadow: rgba(118, 143, 255, 0.1) 0px 16px 24px 0px;
-    width:100%;
     height:20%;
     border-radius:5px;
     padding:20px;

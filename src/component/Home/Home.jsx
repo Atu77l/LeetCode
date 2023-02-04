@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from './../Profile/Profile';
+import Profile from  '../Profile/Profile';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 

@@ -1,13 +1,17 @@
 import React from 'react'
 import logo from './../../../Image/star-icon.jpg'
+import './Account.css'
+
 
 const Account = () => {
   return (
     <div className="account">
         <div className="detail">
         <img className="logo" src={logo} alt="profile"></img>
+        <div className="name1">
         <div className="name">Atul Kesharwani</div>
         <div className="rank">Rank 7171</div>
+        </div>
         </div>
         <div className="paragraph">
            <p className="about"> My Name is Atul Kesharwani.Currently, I am pursuing B.tech from Madan Mohan Malaviya University Of Technology,Gorakhpur.

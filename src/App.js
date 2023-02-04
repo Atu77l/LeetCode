@@ -14,7 +14,6 @@ function App() {
           <Route path="/Register" element={<Register/>} exact/>
       </Routes>
     </BrowserRouter>
-
     )
 }
 

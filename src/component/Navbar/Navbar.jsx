@@ -3,13 +3,14 @@ import './Navabar.css';
 import star from '../../Image/star-icon.jpg';
 import store from '../../Image/store.jpg';
 import Image from '../../Image/leetcode_logo.svg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className="nav">
-        <img src={Image} className="logo-image" alt="LeetCode"></img>
+        <Link to='/'><img src={Image} className="logo-image" alt="LeetCode"></img></Link>
         <div className="item">Explore</div>
-        <div className="item">Problems</div>
+        <div className="item">Problem</div>
         <div className="item">Interview</div>
         <div className="item">Contest</div>
         <div className="item">Discuss</div>

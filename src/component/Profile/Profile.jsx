@@ -15,10 +15,11 @@ const Profile = () => {
             </div>
             <div className="profile-side">
             <div className="rating-and-graph">
-            <Line/><Bar1></Bar1>
+            <Line/><Bar1/>
             {/* <div className="rating"><Line/></div>
             <div className="graph"><Bar1/></div> */}
             </div>
+      
             <div className="Number-of-question-and-badge">
                 <div className="Number-of-question"><Pie1/></div>
                 {/* <div className="Badges"></div> */}
